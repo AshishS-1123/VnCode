@@ -1,2 +1,8 @@
-<!DOCTYPE RCC>
-<RCC version="1.0"/>
+<RCC>
+    <qresource prefix="/">
+        <file>icons/fileExplorer.png</file>
+        <file>icons/searchFiles.png</file>
+        <file>icons/versionControl.png</file>
+        <file>icons/extensions.png</file>
+    </qresource>
+</RCC>
