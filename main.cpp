@@ -1,3 +1,5 @@
+#include <QDebug>
+
 #include "src/mainwindow.h"
 
 #include <QApplication>

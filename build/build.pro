@@ -1,6 +1,7 @@
 TARGET = VnCode
 
 QT       += core gui
+QT       += widgets
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -19,12 +20,16 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     ../main.cpp \
-    ../src/mainwindow.cpp
+    ../src/mainwindow.cpp \
+    ../src/Layout/LeftSideBar/SidebarWidget.cpp
 
 HEADERS += \
-    ../src/mainwindow.h
+    ../src/mainwindow.h \
+    ../src/Layout/LeftSideBar/SidebarWidget.h
 
 # FORMS += \
+
+RESOURCES = ../resources/resources.qrc
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
