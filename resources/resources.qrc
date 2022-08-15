@@ -4,5 +4,7 @@
         <file>icons/searchFiles.png</file>
         <file>icons/versionControl.png</file>
         <file>icons/extensions.png</file>
+
+        <file>styles/sidebar.qss</file>
     </qresource>
 </RCC>

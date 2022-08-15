@@ -1,6 +1,8 @@
 #ifndef SIDEBAR_WIDGET_H
 #define SIDEBAR_WIDGET_H
 #include <QTabWidget>
+#include <QFile>
+#include <QSize>
 
 class SideBarWidget: public QTabWidget {
 Q_OBJECT

@@ -9,10 +9,12 @@ MainWindow::MainWindow(QWidget *parent)
 void MainWindow::setupUi () {
     // Initial position and dimensions of window.
     setGeometry(100, 100, 1536, 864);
+    setStyleSheet("background-color: #24292e");
 
     // Create a box layout for displaying the tab-bar (with filex, git, etc)
     // and code editor in horizontal layout.
     QBoxLayout* layout = new QBoxLayout(QBoxLayout::Direction::LeftToRight);
+    layout->setContentsMargins(0, 0, 0, 0);
 
     // Add widgets to layout using layout->addWidget()
     layout->addWidget (new SideBarWidget(this));
