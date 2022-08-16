@@ -20,6 +20,10 @@ void MainWindow::setupUi () {
     // add them to a QSplitter.
     QSplitter* splitter = new QSplitter(this);
     splitter->addWidget (new SideBarWidget(splitter));
+    splitter->addWidget (new SideBarWidget(splitter));
+    splitter->addWidget (new SideBarWidget(splitter));
+    splitter->addWidget (new SideBarWidget(splitter));
+    
 
     // Add widgets to layout using layout->addWidget()
     layout->addWidget (splitter);

@@ -18,6 +18,8 @@ void FilesTab::setupUi () {
     // Remove the header.
     // TODO: Implement custom header later.
     setHeaderHidden(true);
+    // This is to allow proper resizing the tabs.
+    setMinimumWidth(1);
 
     // Custom styling
     QFile File(":/styles/filesTab.qss");                                                  
