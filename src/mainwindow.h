@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <QBoxLayout>
+#include <QSplitter>
 #include "./Layout/LeftSideBar/SidebarWidget.h"
 
 class MainWindow : public QMainWindow {

@@ -16,8 +16,13 @@ void MainWindow::setupUi () {
     QBoxLayout* layout = new QBoxLayout(QBoxLayout::Direction::LeftToRight);
     layout->setContentsMargins(0, 0, 0, 0);
 
+    // In order to make the code editor and tabs widget resizable,
+    // add them to a QSplitter.
+    QSplitter* splitter = new QSplitter(this);
+    splitter->addWidget (new SideBarWidget(splitter));
+
     // Add widgets to layout using layout->addWidget()
-    layout->addWidget (new SideBarWidget(this));
+    layout->addWidget (splitter);
 
     // Attach the layout to the main window.
     QWidget* window = new QWidget();
