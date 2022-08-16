@@ -18,4 +18,10 @@ void FilesTab::setupUi () {
     // Remove the header.
     // TODO: Implement custom header later.
     setHeaderHidden(true);
+
+    // Custom styling
+    QFile File(":/styles/filesTab.qss");                                                  
+    File.open(QFile::ReadOnly);
+    QString styles = QLatin1String(File.readAll());
+    setStyleSheet(styles);
 }

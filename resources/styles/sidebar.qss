@@ -6,14 +6,14 @@ QTabBar::tab {
     left: 3px;
     width: 40px;
     height: 44px;
-    border-left: 3px solid #24292e;
+    border-left: 2px solid #24292e;
     padding-bottom: 15px;
     padding-left: 3px;
 }
 
 QTabBar::tab:selected {
     background-color: #24292e;
-    border-left: 3px solid #f9826c;
+    border-left: 2px solid #f9826c;
 }
 
 QTabBar::tab:!selected {

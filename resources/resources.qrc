@@ -4,7 +4,10 @@
         <file>icons/searchFiles.png</file>
         <file>icons/versionControl.png</file>
         <file>icons/extensions.png</file>
+        <file>icons/branch-closed.png</file>
+        <file>icons/branch-open.png</file>
 
         <file>styles/sidebar.qss</file>
+        <file>styles/filesTab.qss</file>
     </qresource>
 </RCC>
