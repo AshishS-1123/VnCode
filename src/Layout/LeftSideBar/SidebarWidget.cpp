@@ -19,8 +19,8 @@ void SideBarWidget::setupUi () {
     QWidget* emptyWidget3 = new QWidget();
     QWidget* emptyWidget4 = new QWidget();
    
-    addTab(emptyWidget1, QIcon(":/icons/fileExplorer.png") , "");
-    addTab(emptyWidget2, QIcon(":/icons/searchFiles.png") , "");
-    addTab(emptyWidget3, QIcon(":/icons/versionControl.png") , "");
-    addTab(emptyWidget4, QIcon(":/icons/extensions.png") , "");
+    addTab(emptyWidget1, QIcon(":/icons/fileExplorer.svg") , "");
+    addTab(emptyWidget2, QIcon(":/icons/searchFiles.svg") , "");
+    addTab(emptyWidget3, QIcon(":/icons/versionControl.svg") , "");
+    addTab(emptyWidget4, QIcon(":/icons/extensions.svg") , "");
 }

@@ -1,9 +1,9 @@
 <RCC>
     <qresource prefix="/">
-        <file>icons/fileExplorer.png</file>
-        <file>icons/searchFiles.png</file>
-        <file>icons/versionControl.png</file>
-        <file>icons/extensions.png</file>
+        <file>icons/fileExplorer.svg</file>
+        <file>icons/searchFiles.svg</file>
+        <file>icons/versionControl.svg</file>
+        <file>icons/extensions.svg</file>
         <file>icons/branch-closed.png</file>
         <file>icons/branch-open.png</file>
 
