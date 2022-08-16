@@ -21,11 +21,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     ../main.cpp \
     ../src/mainwindow.cpp \
-    ../src/Layout/LeftSideBar/SidebarWidget.cpp
+    ../src/Layout/LeftSideBar/SidebarWidget.cpp \
+    ../src/Layout/LeftSideBar/Tabs/FilesTab.cpp
 
 HEADERS += \
     ../src/mainwindow.h \
-    ../src/Layout/LeftSideBar/SidebarWidget.h
+    ../src/Layout/LeftSideBar/SidebarWidget.h \
+    ../src/Layout/LeftSideBar/Tabs/FilesTab.h
 
 # FORMS += \
 

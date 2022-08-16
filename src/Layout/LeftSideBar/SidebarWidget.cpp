@@ -14,7 +14,7 @@ void SideBarWidget::setupUi () {
     // Start adding tabs.
 
     // TODO: remove these later.
-    QWidget* emptyWidget1 = new QWidget();
+    QWidget* emptyWidget1 = new FilesTab(this);
     QWidget* emptyWidget2 = new QWidget();
     QWidget* emptyWidget3 = new QWidget();
     QWidget* emptyWidget4 = new QWidget();

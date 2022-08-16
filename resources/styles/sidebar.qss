@@ -8,6 +8,7 @@ QTabBar::tab {
     height: 44px;
     border-left: 3px solid #24292e;
     padding-bottom: 15px;
+    padding-left: 3px;
 }
 
 QTabBar::tab:selected {

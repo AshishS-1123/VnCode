@@ -4,6 +4,8 @@
 #include <QFile>
 #include <QSize>
 
+#include "Tabs/FilesTab.h"
+
 class SideBarWidget: public QTabWidget {
 Q_OBJECT
 
